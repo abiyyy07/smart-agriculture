@@ -10,6 +10,8 @@ import { HiMiniUserGroup } from "react-icons/hi2";
 
 import FungsiComponent from "@/components/fungsi/fungsi";
 import ToolsComponents from "@/components/tools/tools";
+import WorkLayout from "@/components/work/page";
+import MemberComponents from "@/components/member/page";
 
 export default function Home() {
   const scrollToRef = (ref: any) => window.scrollTo({ top: ref.current.offsetTop, behavior: 'smooth' });
@@ -18,6 +20,7 @@ export default function Home() {
   const fungsiRef = useRef(null);
   const toolsRef = useRef(null);
   const workRef = useRef(null);
+  const memberRef = useRef(null);
   return (
     <main>
 
@@ -73,12 +76,12 @@ export default function Home() {
             <div className="bg-white p-4 rounded-lg shadow-lg flex flex-col items-center">
               <RiFlowChart size={40} className="mb-2"/>
               <h3 className="text-xl font-bold mb-2">Cara Kerja</h3>
-              <button className="bg-green-700 transition hover:bg-green-800 text-white font-bold py-2 px-4 rounded">Eksplor Cara Kerja</button>
+              <button className="bg-green-700 transition hover:bg-green-800 text-white font-bold py-2 px-4 rounded" onClick={() => scrollToRef(workRef)}>Eksplor Cara Kerja</button>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-lg flex flex-col items-center">
               <HiMiniUserGroup size={40} className="mb-2"/>
               <h3 className="text-xl font-bold mb-2">Profile Kelompok</h3>
-              <button className="bg-green-700 transition hover:bg-green-800 text-white font-bold py-2 px-4 rounded">Eksplor Profil</button>
+              <button className="bg-green-700 transition hover:bg-green-800 text-white font-bold py-2 px-4 rounded" onClick={() => scrollToRef(memberRef)}>Eksplor Profil</button>
             </div>
           </div>
         </div>
@@ -92,6 +95,16 @@ export default function Home() {
       {/* Alat dan Bahan */}
       <div className="" ref={toolsRef}>
         <ToolsComponents />
+      </div>
+
+      {/* Cara Kerja */}
+      <div className="" ref={workRef}>
+        <WorkLayout />
+      </div>
+
+      {/* Anggota */}
+      <div className="" ref={memberRef}>
+        <MemberComponents />
       </div>
     </main>
   );
