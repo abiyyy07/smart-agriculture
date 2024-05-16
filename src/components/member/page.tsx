@@ -6,7 +6,7 @@ export default function MemberComponents() {
     const anggota = [
         {
           nama: 'Abiyan Mirza I.A',
-          instagram: 'https://drive.google.com/drive/folders/176QMxsIC6NsxfrA-dwc3DnMyTNCcVP2M?usp=drive_link',
+          instagram: 'https://www.instagram.com/abiyanm_?igsh=aHJ0cWdqcmZqY2l2',
           username: '@abiyanm_',
         },
         {
