@@ -2,7 +2,7 @@ export default function PopUpSuhu() {
     return (
         <div className="text-start">
             <h2 className="font-semibold text-xl">Pemantauan Suhu dan Kelembaban Daerah Sekitar</h2>
-            <p className="mt-1">Smart Agriculture dilengkapi oleh teknologi atau alat bernama 'Sensor DHT11' yang berfungsi dalam menangkap dan menghitung suhu serta kelembaban daerah sekitar yang terjangkau dengan sensor tersebut. Suhu dan Kelembaban nantinya akan ditampilkan di LCD yang terpasang maupun dapat dilihat melalui Aplikasi Blynk.</p>
+            <p className="mt-1">Smart Agriculture dilengkapi oleh teknologi atau alat bernama Sensor DHT11 yang berfungsi dalam menangkap dan menghitung suhu serta kelembaban daerah sekitar yang terjangkau dengan sensor tersebut. Suhu dan Kelembaban nantinya akan ditampilkan di LCD yang terpasang maupun dapat dilihat melalui Aplikasi Blynk.</p>
             <p className="mt-2 font-bold text-red-600">Berikut suhu ideal dalam bidang pertanian:</p>
 
             {/* Tabel Data */}

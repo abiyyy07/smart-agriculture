@@ -2,7 +2,7 @@ export default function PopUpTanaman() {
     return (
         <div className="text-start">
             <h2 className="font-semibold text-xl">Pemantauan Tanaman Melalui Kondisi Tanah</h2>
-            <p className="mt-1">Smart Agriculture dilengkapi oleh teknologi atau alat bernama 'Soil Moisture Sensor' atau sensor kelembaban tanah. Nantinya akan diketahui nilai-nya yang diambil dari sensor kelembaban tanah yang diprogram khusus yang dapat mengirim sinya ke pompa dan mendefinisikan itu sebagai kondisi tanah kering/normal/basah nantinya dan ditampilkan dalam teks LCD atau Aplikasi Blynk</p>
+            <p className="mt-1">Smart Agriculture dilengkapi oleh teknologi atau alat bernama Soil Moisture Sensor atau sensor kelembaban tanah. Nantinya akan diketahui nilai-nya yang diambil dari sensor kelembaban tanah yang diprogram khusus yang dapat mengirim sinya ke pompa dan mendefinisikan itu sebagai kondisi tanah kering/normal/basah nantinya dan ditampilkan dalam teks LCD atau Aplikasi Blynk</p>
 
             {/* Tabel Data */}
             <div className="overflow-x-auto mt-4">
